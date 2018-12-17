@@ -26,3 +26,6 @@ git commit -m "Created ecommerce project with django"
 §3 debug
 1. in setting.py, backend:
 'accounts.backends.CaseInsensitive', caused error so that it has been removed.
+
+§4. hide secret info from github, such as env.py
+echo env.py >> .gitignore
